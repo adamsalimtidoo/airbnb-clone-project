@@ -1,5 +1,6 @@
 # StayEase – Airbnb Clone Project
 
+
 ## Project Overview
 
 StayEase is a full-stack web application inspired by Airbnb, designed to allow users to list, browse, and book properties for short stays. The goal is to build a functional, user-friendly platform that simulates core Airbnb features with modern web development tools and best practices.
@@ -35,6 +36,8 @@ StayEase is a full-stack web application inspired by Airbnb, designed to allow u
 - Jest (unit testing)
 - Vercel or Netlify (for frontend deployment)
 - Render or Railway (for backend deployment)
+
+---
 
 ## UI/UX Design Planning
 
@@ -92,9 +95,6 @@ A user-friendly design is essential in booking platforms because:
 | Headings       | Circular      | 700         | 24px/32px |
 | Secondary Text | Circular      | 400         | 14px      |
 
-
----
-
 ###  Why Identifying Design Properties Matters
 
 Understanding and documenting design properties such as colors and typography ensures:
@@ -103,4 +103,61 @@ Understanding and documenting design properties such as colors and typography en
 - **Scalability** by creating reusable styles and themes
 - **Brand Identity** through recognizable visuals
 - **Accessibility** by maintaining proper contrast and legibility
+
+---
+
+
+## 🧑‍💼 Project Roles and Responsibilities
+
+This project follows a team-based structure with clearly defined roles to ensure smooth collaboration and accountability.
+
+### 👨‍💼 Project Manager
+- Oversees the overall progress of the project
+- Ensures deadlines are met and milestones achieved
+- Coordinates between different teams (design, development, testing)
+- Organizes meetings and manages project documentation
+
+### 💻 Frontend Developers
+- Implement the UI based on Figma designs using React and Tailwind CSS
+- Ensure responsiveness across all screen sizes
+- Integrate APIs to fetch and display dynamic data
+- Handle user authentication and interactive components
+
+### 🛠️ Backend Developers
+- Build and maintain RESTful APIs using Express.js
+- Design and manage MongoDB schemas and models
+- Handle business logic, authentication, and booking processes
+- Ensure data security and API performance
+
+### 🎨 UI/UX Designers
+- Design intuitive and responsive interfaces in Figma
+- Define color palettes, typography, spacing, and component behavior
+- Conduct usability testing and iterate based on feedback
+- Deliver design assets and specs to developers
+
+### ✅ QA/Testers
+- Write and execute test cases for frontend and backend
+- Conduct manual and automated testing (using Jest, Postman)
+- Identify bugs and ensure all features meet acceptance criteria
+- Test responsiveness, performance, and edge cases
+
+### ☁️ DevOps Engineers
+- Set up CI/CD pipelines for automated deployment
+- Monitor application performance in staging and production
+- Manage hosting platforms like Vercel, Render, or Railway
+- Handle backup and recovery strategies
+
+### 📦 Product Owner
+- Defines the product vision and goals
+- Prioritizes the feature backlog
+- Ensures business requirements are met
+- Acts as the liaison between stakeholders and the development team
+
+### 🧑‍🏫 Scrum Master
+- Facilitates Agile ceremonies (sprint planning, standups, retrospectives)
+- Removes blockers and promotes team collaboration
+- Ensures the team adheres to Agile best practices
+- Tracks sprint progress and encourages continuous improvement
+
+---
 
