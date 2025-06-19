@@ -107,53 +107,53 @@ Understanding and documenting design properties such as colors and typography en
 ---
 
 
-## 🧑‍💼 Project Roles and Responsibilities
+## Project Roles and Responsibilities
 
 This project follows a team-based structure with clearly defined roles to ensure smooth collaboration and accountability.
 
-### 👨‍💼 Project Manager
+### Project Manager
 - Oversees the overall progress of the project
 - Ensures deadlines are met and milestones achieved
 - Coordinates between different teams (design, development, testing)
 - Organizes meetings and manages project documentation
 
-### 💻 Frontend Developers
+### Frontend Developers
 - Implement the UI based on Figma designs using React and Tailwind CSS
 - Ensure responsiveness across all screen sizes
 - Integrate APIs to fetch and display dynamic data
 - Handle user authentication and interactive components
 
-### 🛠️ Backend Developers
+### Backend Developers
 - Build and maintain RESTful APIs using Express.js
 - Design and manage MongoDB schemas and models
 - Handle business logic, authentication, and booking processes
 - Ensure data security and API performance
 
-### 🎨 UI/UX Designers
+### UI/UX Designers
 - Design intuitive and responsive interfaces in Figma
 - Define color palettes, typography, spacing, and component behavior
 - Conduct usability testing and iterate based on feedback
 - Deliver design assets and specs to developers
 
-### ✅ QA/Testers
+### QA/Testers
 - Write and execute test cases for frontend and backend
 - Conduct manual and automated testing (using Jest, Postman)
 - Identify bugs and ensure all features meet acceptance criteria
 - Test responsiveness, performance, and edge cases
 
-### ☁️ DevOps Engineers
+### DevOps Engineers
 - Set up CI/CD pipelines for automated deployment
 - Monitor application performance in staging and production
 - Manage hosting platforms like Vercel, Render, or Railway
 - Handle backup and recovery strategies
 
-### 📦 Product Owner
+### Product Owner
 - Defines the product vision and goals
 - Prioritizes the feature backlog
 - Ensures business requirements are met
 - Acts as the liaison between stakeholders and the development team
 
-### 🧑‍🏫 Scrum Master
+### Scrum Master
 - Facilitates Agile ceremonies (sprint planning, standups, retrospectives)
 - Removes blockers and promotes team collaboration
 - Ensures the team adheres to Agile best practices
@@ -161,3 +161,50 @@ This project follows a team-based structure with clearly defined roles to ensure
 
 ---
 
+## UI Component Patterns
+
+This section outlines the key reusable UI components for the StayEase platform. Each component is designed for modularity, reusability, and responsiveness.
+
+### Core Components
+
+- **Navbar**
+  - Sticky header with logo, navigation links, login/signup button, and user avatar dropdown
+  - Responsive toggle for mobile view
+
+- **Footer**
+  - Contains navigation links, copyright
+  - Social media icons and support links
+
+- **Property Card**
+  - Displays image, location, price, rating, and a quick view option
+  - Used on the property listing grid and search results
+
+- **Search Bar**
+  - Allows filtering by location, date, and number of guests
+  - Used in the homepage and listing page
+
+- **Image Carousel**
+  - Scrollable preview of property images
+  - Appears in the listing detail view
+
+- **Booking Form**
+  - Captures check-in/check-out dates and number of guests
+  - Calculates total price and shows availability
+
+- **User Profile Card**
+  - Displays user info, bookings, and listings
+  - Allows profile updates and avatar uploads
+
+- **Listing Form**
+  - Used by hosts to create and update property details
+  - Supports image upload and preview
+
+- **Modal / Dialogs**
+  - Used for confirmations, login/signup popups, and alerts
+
+- **Toast Notifications**
+  - Display feedback messages for actions (success, error, warning)
+
+---
+
+These components will be structured as React functional components and styled using Tailwind CSS for a consistent and maintainable design system.
