@@ -35,3 +35,40 @@ StayEase is a full-stack web application inspired by Airbnb, designed to allow u
 - Jest (unit testing)
 - Vercel or Netlify (for frontend deployment)
 - Render or Railway (for backend deployment)
+
+## 🎨 UI/UX Design Planning
+
+### 🎯 Design Goals
+
+The goal of the UI/UX design is to create a clean, intuitive, and user-friendly interface that reflects modern web standards. The design should:
+- Make property discovery and booking seamless
+- Provide visual consistency and responsiveness across devices
+- Support both guest and host experiences with clear navigation
+- Emphasize accessibility, clarity, and minimal friction
+
+### 🌟 Key Features to Implement
+
+- Responsive Navbar and Footer  
+- Property Listing Grid with Search and Filters  
+- Listing Details Page with Image Carousel and Descriptions  
+- User Authentication (Login/Signup)  
+- Host Dashboard for Property Listings  
+- Booking Calendar & Checkout Flow  
+- Payment Integration  
+- User Profiles and Booking History  
+
+### 📄 Primary Page Descriptions
+
+| Page                   | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| Property Listing View  | A grid-based layout showing properties with filters (price, location, etc.) |
+| Listing Detailed View  | A detailed view of a selected property, with images, host info, reviews, etc. |
+| Simple Checkout View   | A form-based interface for users to book a property, choose dates, and pay  |
+
+### 🧠 Importance of User-Friendly Design
+
+A user-friendly design is essential in booking platforms because:
+- It enhances trust and engagement from both guests and hosts  
+- Reduces confusion and decision friction during the booking flow  
+- Helps users complete actions (search, book, list a property) with minimal effort  
+- Improves accessibility for all users regardless of device or ability  
