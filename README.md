@@ -13,6 +13,7 @@ StayEase is a full-stack web application inspired by Airbnb, designed to allow u
 - Integrate authentication and payment systems
 - Ensure scalability and maintainability with modular code structure
 - Write tests and document the system for reliability
+- Integrate cyber defense systems into the project
 
 ## Tech Stack
 
